@@ -1,0 +1,195 @@
+/* Elements */
+
+body{
+  background-color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+h1{
+  font-family: Ubuntu;
+  color: #112d4e;
+  font-size: 30px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+h3{
+  font-family: Ubuntu;
+  color: #3f72af;
+    font-size: 20px;
+      font-weight: bold;
+}
+
+h4{
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h5{
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+hr{
+border-style: none;
+border-top-style: dotted;
+border-color: #455d7a;
+background-color: white;
+border-width: 5px;
+width: 7%;
+margin: 30px auto 30px auto;
+display: block;
+}
+
+
+/* Classes */
+
+.nav-link{
+  font-size: 14px;
+}
+
+.container-fluid {
+  padding: 0;
+  width: 80%
+}
+
+.container{
+  width: 80%;
+  padding: 0;
+}
+
+.navbar-container{
+  width:100%;
+}
+
+.johannes-img{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+.title-text {
+  margin:auto;
+  text-align: center;
+}
+
+.title-img {
+  margin: auto;
+  padding: 50px 0 20px 0;
+}
+
+.contact-button{
+  margin: 30px 20px 30px 20px;
+  color: white;
+}
+
+.contact-button-footer{
+  margin: 30px 20px 30px 20px;
+  color: white;
+}
+
+.contact-icons{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.col-button-footer{
+  text-align: center;
+}
+
+.h1-intro{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.h1-footer{
+  color: white;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.no-bullets{
+  list-style-type: none;
+}
+
+.ability-title{
+  display: inline-block;
+  width: 70%;
+}
+
+.rating:hover{
+  background-color: #e3e3e3;
+}
+
+.rating:hover > .ability-score > .bi-star-fill{
+  margin: auto 1px;
+}
+
+.rating:hover > .ability-score > .bi-star{
+  margin: auto 1px;
+}
+
+.bi-star-fill{
+  transition: margin 0.35s ease;
+}
+
+.bi-star{
+  transition: margin 0.35s ease;
+}
+
+.p-center{
+  text-align: center;
+}
+
+.rating{
+  color: #233142;
+}
+
+.container-exp{
+  margin: 30px auto;
+}
+
+.general-info{
+  margin-bottom: 15px;
+}
+
+.row-edu{
+  margin: 30px 0;
+}
+
+.row-exp{
+  margin: 30px 0 0 0;
+}
+
+
+/* ID */
+
+#title {
+    background-color: #233142;
+    padding:30px 0;
+  }
+
+#footer {
+    background-color: #233142;
+    padding: 0 0 50px;
+}
+
+#about{
+  background-color: white;
+}
+
+#experiences{
+  background-color: white;
+}
+
+#education{
+  background-color: white;
+}
+
+#skills{
+  background-color: white;
+}
