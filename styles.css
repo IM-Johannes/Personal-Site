@@ -49,6 +49,8 @@ display: block;
 
 .nav-link{
   font-size: 14px;
+   text-align: right;
+   margin-top: 5px;
 }
 
 .container-fluid {
